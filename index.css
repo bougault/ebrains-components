@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  margin: 50px auto;
+  max-width: 760px;
+}
+
+dl dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.usage {
+  background: #eee;
+  overflow: scroll;
+  padding: 0 1rem;
+}
+
+.warning {
+  padding: 1rem;
+  background-color: rgb(252, 238, 176);
+  margin: 1rem 0;
+}
+
+yt-video {
+  width: 560px;
+  height: 315px;
+}
