@@ -136,5 +136,5 @@
     }
   }
 
-  window.customElements.define("yt-video", YTVideo);
+  window.customElements.define("ebrains-yt-video", YTVideo);
 })();

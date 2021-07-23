@@ -14,14 +14,14 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./index.css" />
-	<script src="components/yt-video.js"></script>
+	<script src="yt-videos/yt-video.js"></script>
 </head>
 
 <body>
 	<main>
 		<h1>EBRAINS WebComponents</h1>
 		<h2>Youtube Video Privacy Overlay</h2>
-		<h3>yt-video</h3>
+		<h3>ebrains-yt-video</h3>
 		<p>Displays an overlay warning the user about Youtube/Google privacy if s.he loads/watches the video. Clicking
 			on
 			"watch video" button makes the embedded iframe created in the document</p>
@@ -37,37 +37,39 @@
 		<h4>Styles</h4>
 		<p>CSS custom properties</p>
 		<dl>
-			<dt>--yt-video-overlay-fgcolor</dt>
+			<dt>--ebrains-yt-video-overlay-fgcolor</dt>
 			<dd>Overlay text color</dd>
-			<dt>--yt-video-overlay-bgcolor</dt>
+			<dt>--ebrains-yt-video-overlay-bgcolor</dt>
 			<dd>Overlay background color: if opaque, the cover is not visible</dd>
-			<dt>--yt-video-overlay-gradient-from</dt>
+			<dt>--ebrains-yt-video-overlay-gradient-from</dt>
 			<dd>Overlay background gradient start color: if opaque, the cover is not visible</dd>
-			<dt>--yt-video-overlay-gradient-to</dt>
+			<dt>--ebrains-yt-video-overlay-gradient-to</dt>
 			<dd>Overlay background gradient to color: if opaque, the cover is not visible</dd>
 		</dl>
 		<h4>Usage</h4>
 		<p>Reference component</p>
 		<pre class="usage">
 			<code>
-&lt;script src="http://ebrains.bind.run/components/yt-video.js"&gt;&lt;/script&gt;
+&lt;script src="http://ebrains.bind.run/components/ebrains-yt-video.js"&gt;&lt;/script&gt;
 			</code>
 		</pre>
 		<p>Use in HTML</p>
 		<pre class="usage">
 			<code>
-&lt;yt-video
+&lt;ebrains-yt-video
 	url="https://www.youtube.com/embed/lyQfZZiBQVk?autoplay=1"
 	cover="https://strapi-prod.sos-ch-dk-2.exo.io/ebrains_ssd_call_ebrains_website_3a68136980.jpg"&gt;
-&lt;/yt-video&gt;
+&lt;/ebrains-yt-video&gt;
 			</code>
 		</pre>
 		<div class="warning">
-			You have to style <em>yt-video</em> on your side. If you don't define css width and height properties,
+			You have to style <em>ebrains-yt-video</em> on your side. If you don't define css width and height
+			properties,
 			component should be not visible.
 		</div>
-		<yt-video url="https://www.youtube.com/embed/lyQfZZiBQVk?autoplay=1"
-			cover="https://strapi-prod.sos-ch-dk-2.exo.io/ebrains_ssd_call_ebrains_website_3a68136980.jpg"></yt-video>
+		<ebrains-yt-video url="https://www.youtube.com/embed/lyQfZZiBQVk?autoplay=1"
+			cover="https://strapi-prod.sos-ch-dk-2.exo.io/ebrains_ssd_call_ebrains_website_3a68136980.jpg">
+		</ebrains-yt-video>
 	</main>
 </body>
 
