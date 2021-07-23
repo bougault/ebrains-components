@@ -15,15 +15,6 @@ Displays an overlay warning the user about Youtube/Google privacy if s.he loads/
 
 CSS custom properties
 
---ebrains-yt-video-overlay-fgcolor
-    Overlay text color
---ebrains-yt-video-overlay-bgcolor
-    Overlay background color: if opaque, the cover is not visible
---ebrains-yt-video-overlay-gradient-from
-    Overlay background gradient start color: if opaque, the cover is not visible
---ebrains-yt-video-overlay-gradient-to
-    Overlay background gradient to color: if opaque, the cover is not visible
-
 | property                                 | description                                               | default                            |
 |------------------------------------------|-----------------------------------------------------------|------------------------------------|
 | --ebrains-yt-video-overlay-fgcolor       | Overlay text color                                        | #FFF                               |
@@ -36,7 +27,7 @@ Usage
 Reference component
 
 ```
-<script src="http://ebrains.bind.run/components/ebrains-yt-video.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bougault/ebrains-components/yt-video/yt-video.js"></script>
 ```
 
 Use in HTML
